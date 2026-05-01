@@ -1,0 +1,15 @@
+pandas
+numpy
+requests
+praw
+beautifulsoup4
+selenium
+matplotlib
+seaborn
+plotly
+vaderSentiment
+scikit-learn
+folium
+jupyter
+python-dotenv
+openpyxl
