@@ -1,9 +1,10 @@
-chain,ticker,fiscal_year,revenue_usd_b,grocery_revenue_usd_b,store_count_us,employee_count,source,notes
-Walmart,WMT,FY2025,681.0,259.0,5205,2100000,SEC 10-K,Grocery est ~56% of Walmart US net sales $462.4B
-Kroger,KR,FY2024,147.1,140.0,2722,409000,SEC 10-K,Excludes fuel ~$24B
-Albertsons,ACI,FY2024,80.4,75.0,2270,285000,SEC 10-K,Banner names: Safeway Vons Jewel-Osco Acme
-Costco,COST,FY2024,254.5,180.0,614,219000,SEC 10-K,Membership fees $4.8B; grocery est ~70% of net sales
-Trader Joes,private,2024,24.0,24.0,608,70000,Acquired Briefing + Worldly Partners,Estimate; private. ~11% CAGR from $20B in 2023
-Aldi US,private,2024,40.2,40.2,2400,25000,Martini.ai industry report,Estimate; private. Aldi Sud US operations
-Publix,private,FY2024,59.7,59.7,1390,260000,Publix 10-K (employee-owned filer),Net earnings $4.6B
-Whole Foods,Amazon subsidiary,2024,18.4,18.4,500,105000,Industry estimates,Amazon does not break out segment in 10-K
+chain,ticker,fiscal_year,revenue_usd_b,grocery_revenue_usd_b,store_count_us,employee_count,acsi_score_2026,sales_per_sqft_usd,avg_store_sqft,source,notes
+Walmart,WMT,FY2025,681.0,259.0,5205,2100000,75,400,180000,SEC 10-K,Grocery est ~56% of Walmart US
+Kroger,KR,FY2024,147.1,140.0,2722,409000,76,550,60000,SEC 10-K,Excludes fuel ~$24B
+Albertsons,ACI,FY2024,80.4,75.0,2270,285000,76,580,55000,SEC 10-K,20+ banner names
+Costco,COST,FY2024,254.5,180.0,614,219000,81,1300,147000,SEC 10-K,Membership-driven
+Trader Joes,private,2024,24.0,24.0,608,70000,86,1900,12000,Triangulated estimate,Highest ACSI + highest sales/sqft
+Aldi US,private,2024,40.2,40.2,2400,25000,81,750,17000,Industry estimate,Aldi Sud US
+Publix,private,FY2024,59.7,59.7,1390,260000,84,650,55000,Publix 10-K,Employee-owned
+Whole Foods,Amazon subsidiary,2024,18.4,18.4,500,105000,81,1000,40000,Industry estimate,Amazon subsidiary
+H-E-B,private,2024,46.0,46.0,440,160000,83,800,90000,Industry estimate,Texas-only powerhouse
