@@ -1,0 +1,6 @@
+chain,sku_count,sales_per_sqft,inv_turns,store_sqft,labor_pct,gross_margin_pct,op_margin_pct,private_label_pct
+trader_joes,4000,1900,14,12000,12,28,5.5,80
+walmart,120000,400,9,180000,10,24,4.0,25
+aldi,1600,750,13,17000,8,25,5.0,90
+publix,40000,650,11,55000,13,28,7.0,25
+costco,4000,1300,12,147000,6,12,3.7,30
