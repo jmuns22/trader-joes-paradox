@@ -312,4 +312,74 @@ All three converge on: **curation is the moat, not price**.
 | Produce | 133.3 | 100 | 95.1 | 130.3 | 102.5 |
 | **Overall** | **104.8** | **100** | **87.4** | **133.5** | **91.6** |
 
+## Phase 4 Findings — Operational Efficiency (Day 5)
+
+### Key operational metrics
+
+| Metric | TJ | Walmart | Aldi | Publix | Costco |
+|---|---|---|---|---|---|
+| SKU count | 4,000 | 120,000 | 1,600 | 40,000 | 4,000 |
+| Sales/sqft ($) | 1,900 | 400 | 750 | 650 | 1,300 |
+| Inventory turns/yr | 14 | 9 | 13 | 11 | 12 |
+| Private label % | 80 | 25 | 90 | 25 | 30 |
+
+### Insights
+
+- **TJ matches Costco on SKUs (4,000) but in 12x smaller stores.** Curation density unmatched.
+- **TJ inventory turns highest (14/yr).** Faster cycling = less waste, fresher stock, less capital tied up.
+- **TJ's 80% private label** sits between Aldi (90%) and rivals (25-30%). Aldi more extreme, TJ premium-curated.
+- **Margin equation:** High private label × fast turns × premium pricing on signatures = consistent 5-6% op margin in low-margin industry.
+
+### Closing the loop on thesis
+
+Phases 1-4 converge:
+1. KPIs: TJ punches above weight on revenue per store
+2. Sentiment: community uniquely product-focused
+3. Pricing: strategic bifurcation (cheap on curated, premium on commodity)
+4. **Operations: curation enables 14 turns/yr + 80% private label → sustainable margins**
+
+The moat is mechanical: fewer SKUs → faster turns → better margins → ability to pay crew more → better service → loyal customers → fewer SKUs needed.
+
+
+## Phase 5 Findings — Expansion Gap (Day 6)
+
+### Model
+TJ propensity score = 40% income + 40% education + 20% urban density.
+Compare actual stores/M population vs demographic-predicted.
+
+### Headline finding
+**848 additional store opportunity. $33.5B incremental revenue potential.**
+
+### Top 10 targets
+| State | Current | Potential | Demographic Score |
+|---|---|---|---|
+| Texas | 17 | +110 | 75.6 |
+| Florida | 14 | +79 | 74.6 |
+| New York | 19.6M pop | +50 | 82.1 |
+| Illinois | 18 | +38 | 81.9 |
+| Pennsylvania | 17 | +36 | 75.0 |
+| Ohio | 11 | +34 | 69.6 |
+| Georgia | 12 | +30 | 73.5 |
+| North Carolina | 11 | +28 | 71.3 |
+| Michigan | 9 | +24 | 71.4 |
+| Tennessee | 4 | +21 | 65.3 |
+
+### Strategic interpretation
+- TJ is **massively coast-skewed.** CA holds 32% of stores.
+- Texas + Florida = 217 store gap. Demographics support it. TJ underbuilt the Sun Belt.
+- Model predicts TJ could realistically double store count (608 → ~1,400) without saturation.
+
+### Caveats
+- Demographic propensity is a proxy. Doesn't account for:
+  - Real estate availability
+  - Local competition (HEB blocks TX, Publix blocks FL)
+  - TJ's deliberate slow-growth philosophy
+- 848 is theoretical ceiling, not realistic 5-year plan.
+- Realistic target: 100-200 stores over 5-10 years.
+
+### Connects to overall thesis
+TJ's "fewer stores" isn't just a strategic choice — it's also massive untapped opportunity. The moat (curation, culture) is portable. Demographics in Texas/Florida match TJ's existing customer profile. Constraint is willingness to expand, not market demand.
+
+
+
 *This file is a living document. Append new findings, decisions, and insights as the project progresses.*
