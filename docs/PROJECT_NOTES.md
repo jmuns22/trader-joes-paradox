@@ -341,45 +341,41 @@ Phases 1-4 converge:
 The moat is mechanical: fewer SKUs → faster turns → better margins → ability to pay crew more → better service → loyal customers → fewer SKUs needed.
 
 
-## Phase 5 Findings — Expansion Gap (Day 6)
+## Phase 5 Findings — Expansion Gap (Refined)
 
 ### Model
-TJ propensity score = 40% income + 40% education + 20% urban density.
-Compare actual stores/M population vs demographic-predicted.
+Two-signal propensity:
+- 60% Demographics (income + education + urban density)
+- 40% Google Trends search interest (real demand)
 
 ### Headline finding
-**848 additional store opportunity. $33.5B incremental revenue potential.**
+~700-800 store opportunity (refined). Revenue potential ~$28-32B.
 
-### Top 10 targets
-| State | Current | Potential | Demographic Score |
-|---|---|---|---|
-| Texas | 17 | +110 | 75.6 |
-| Florida | 14 | +79 | 74.6 |
-| New York | 19.6M pop | +50 | 82.1 |
-| Illinois | 18 | +38 | 81.9 |
-| Pennsylvania | 17 | +36 | 75.0 |
-| Ohio | 11 | +34 | 69.6 |
-| Georgia | 12 | +30 | 73.5 |
-| North Carolina | 11 | +28 | 71.3 |
-| Michigan | 9 | +24 | 71.4 |
-| Tennessee | 4 | +21 | 65.3 |
+### Top targets (refined)
+| State | Current | Refined Target | Demo-only Target | Trends Score |
+|---|---|---|---|---|
+| Texas | 17 | +87 | +110 | 28 |
+| Florida | 14 | +66 | +79 | 34 |
+| New York | 38 | +46 | +50 | 53 |
+| Illinois | 18 | +33 | +38 | 45 |
+| Pennsylvania | 17 | +29 | +36 | 36 |
 
-### Strategic interpretation
-- TJ is **massively coast-skewed.** CA holds 32% of stores.
-- Texas + Florida = 217 store gap. Demographics support it. TJ underbuilt the Sun Belt.
-- Model predicts TJ could realistically double store count (608 → ~1,400) without saturation.
+### Key insight from refinement
+**Texas and Florida demographics suggest huge opportunity, but search interest is LOW** (28 and 34 vs CA's 94). 
 
-### Caveats
-- Demographic propensity is a proxy. Doesn't account for:
-  - Real estate availability
-  - Local competition (HEB blocks TX, Publix blocks FL)
-  - TJ's deliberate slow-growth philosophy
-- 848 is theoretical ceiling, not realistic 5-year plan.
-- Realistic target: 100-200 stores over 5-10 years.
+Three interpretations:
+1. **Latent demand** — locals haven't been exposed to TJ yet; demand grows after stores open
+2. **Cultural mismatch** — Sun Belt demographics don't translate to TJ-style shopping
+3. **Competition** — HEB in Texas, Publix in Florida already serve the curated-grocery niche
 
-### Connects to overall thesis
-TJ's "fewer stores" isn't just a strategic choice — it's also massive untapped opportunity. The moat (curation, culture) is portable. Demographics in Texas/Florida match TJ's existing customer profile. Constraint is willingness to expand, not market demand.
+### Honest caveat
+This model uses two signals. Better versions would also include:
+- Real estate availability
+- Drive-time analysis from existing TJ customers
+- Competitor proximity (Whole Foods, Sprouts cluster analysis)
+- TikTok / social demand signals
+- Local cost of expansion vs revenue potential
 
-
+Current model = 60% confidence directional guide, not a real estate plan.
 
 *This file is a living document. Append new findings, decisions, and insights as the project progresses.*
