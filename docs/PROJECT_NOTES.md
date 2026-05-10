@@ -275,4 +275,41 @@ TJ doesn't win loudness. TJ wins consistency + cultural distinctness. ACSI #1 ra
 
 Cross-platform sentiment comparison is misleading without controlling for data source. Methodological rigor matters more than chasing a desired result.
 
+## Phase 3 Findings — Pricing Reveals Strategic Bifurcation
+
+### Headline finding
+TJ is ~5% MORE expensive than Walmart on average. Not a price leader.
+
+### The bifurcation
+- Cheap on curated/branded categories (snacks, pantry, household, beverages)
+- Expensive on commodity categories (produce, proteins, dairy)
+- Walmart, Costco, Aldi win on commodities. TJ wins on signature items.
+
+### Why this strengthens the moat thesis
+TJ's pricing strategy matches their cultural identity:
+- Community talks about specific products → TJ prices those competitively
+- Community doesn't talk about bananas/milk → TJ doesn't fight for that price point
+- Customers pay 33% premium on produce because they're not there for produce — they're there for cookie butter
+
+### Connecting three phases
+1. **Topic modeling:** TJ community = product-focused
+2. **Sentiment:** TJ = consistent product discourse, not loud praise
+3. **Pricing:** TJ = strategic value on curated, premium on commodity
+
+All three converge on: **curation is the moat, not price**.
+
+### Per-category index (Walmart = 100)
+
+| Category | TJ | Walmart | Aldi | Publix | Costco |
+|---|---|---|---|---|---|
+| Snacks | 86.6 | 100 | 70.1 | 130.6 | 98.4 |
+| Pantry | 87.8 | 100 | 92.7 | 144.1 | 92.9 |
+| Household | 90.2 | 100 | 80.1 | 120.3 | 75.1 |
+| Beverages | 92.2 | 100 | 80.8 | 117.3 | 97.3 |
+| Frozen | 99.6 | 100 | 80.3 | 134.8 | 97.4 |
+| Dairy | 112.2 | 100 | 92.8 | 129.2 | 71.7 |
+| Proteins | 120.2 | 100 | 95.9 | 151.4 | 89.0 |
+| Produce | 133.3 | 100 | 95.1 | 130.3 | 102.5 |
+| **Overall** | **104.8** | **100** | **87.4** | **133.5** | **91.6** |
+
 *This file is a living document. Append new findings, decisions, and insights as the project progresses.*

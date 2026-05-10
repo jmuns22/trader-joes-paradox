@@ -1,0 +1,26 @@
+sku_id,category,product,unit,trader_joes,walmart,aldi,publix,costco,source
+1,dairy,Whole milk 1 gallon,1 gal,4.99,3.78,3.39,4.49,2.30,Industry estimates 2025
+2,dairy,Large eggs 1 dozen,12 ct,3.99,3.94,3.99,5.49,3.20,Kitchn TJ comparison + market
+3,dairy,Greek yogurt plain 32oz,32 oz,4.99,4.78,3.95,5.99,4.50,Brand vs private-label avg
+4,dairy,Sharp cheddar block,8 oz,2.49,2.24,2.19,2.99,1.13,Kitchn Costco comparison
+5,produce,Bananas per lb,1 lb,0.79,0.50,0.42,0.59,0.46,Kitchn 2024
+6,produce,Avocados each,1 ea,1.69,0.98,1.29,1.49,1.20,Market avg
+7,produce,Strawberries 16oz,16 oz,4.49,3.97,2.99,4.99,3.50,Market avg
+8,produce,Baby spinach 5oz,5 oz,2.49,2.78,2.49,3.49,2.99,Market avg
+9,pantry,Extra virgin olive oil,16.9 oz,5.49,7.96,5.99,12.99,5.41,Kitchn Costco normalized
+10,pantry,Pasta penne,16 oz,0.99,1.24,1.29,1.49,0.85,Kitchn comparison
+11,pantry,Marinara sauce,24 oz,1.99,2.18,1.95,2.99,2.55,Industry avg
+12,pantry,Peanut butter creamy,16 oz,2.49,2.24,2.29,3.49,2.65,Industry avg
+13,frozen,Frozen pizza,~12 in,4.99,4.48,3.99,6.99,4.50,Industry avg
+14,frozen,Frozen mixed berries,12 oz,3.49,3.27,2.99,4.49,3.95,Industry avg
+15,frozen,Vanilla ice cream 1 pint,1 pt,3.99,4.94,2.99,5.49,3.50,Industry avg
+16,snacks,Tortilla chips,12 oz,2.49,2.96,1.99,3.49,2.85,Industry avg
+17,snacks,Hummus classic,10 oz,2.99,3.97,2.49,4.49,3.50,Industry avg
+18,snacks,Granola bars 6-pack,6 ct,2.49,2.48,1.99,3.99,2.75,Industry avg
+19,proteins,Chicken breast boneless,1 lb,5.99,3.97,4.85,7.99,3.99,Ramsey + market
+20,proteins,Ground beef 85/15,1 lb,5.99,5.97,4.99,7.49,4.50,Ramsey + Kitchn
+21,proteins,Atlantic salmon,1 lb,11.99,10.97,8.99,13.99,9.99,Market avg
+22,beverages,Sparkling water 8-pack 12oz,8 ct,4.49,5.48,3.95,5.99,4.95,Industry avg
+23,beverages,Coffee whole bean,12 oz,7.99,8.46,6.99,10.99,7.50,Market avg
+24,beverages,Orange juice 52oz,52 oz,3.99,3.98,3.49,4.49,4.50,Industry avg
+25,household,Paper towels,6 rolls,8.99,9.97,7.99,11.99,7.49,Industry avg
