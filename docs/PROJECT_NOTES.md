@@ -74,102 +74,6 @@ A "moat" = barrier protecting business from competitors. TJ's specific moats:
 
 ---
 
-## Revenue Comparison Caveat — Diversification vs Discipline
-
-**Important measurement insight:** Total revenue figures distort the TJ paradox. Rivals earn massively from non-grocery streams TJ refuses to enter.
-
-### What's in each chain's total revenue
-
-- **Walmart $681B:** US grocery (~$259B, 38%) + US general merch + international + Sam's Club + Walmart Connect ads ($4B+) + financial services + fuel
-- **Costco $254B:** Merchandise (electronics, furniture, clothing, food, gas) + membership fees ($4.8B) + travel + optical + pharmacy
-- **Kroger $147B:** Grocery + fuel (~$24B) + Specialty Pharmacy ($2B) + Kroger Personal Finance + alternative profit businesses ($1.3B operating profit)
-- **Albertsons $80B:** Grocery + fuel + Albertsons Media Collective (ad business) + pharmacy
-- **Publix $60B:** Grocery + Publix Liquors + pharmacy
-- **Aldi US $40B:** Groceries only (closer to TJ discipline)
-- **Whole Foods $18B:** Grocery + Amazon Prime delivery integration
-- **Trader Joe's $24B:** Groceries. That's it. No app, no fuel, no pharmacy, no ads, no travel, no credit card.
-
-### Why this matters for the paradox
-
-TJ stays narrow while rivals chase "share of wallet." Stripping out non-grocery revenue narrows the gap massively.
-
-**Grocery revenue per store comparison:**
-- Walmart US grocery: $259B ÷ 5,205 = $50M/store
-- Kroger: $140B ÷ 2,722 = $51M/store
-- Costco grocery: $180B ÷ 614 = $293M/warehouse (huge stores)
-- Publix: $60B ÷ 1,390 = $43M/store
-- **Trader Joe's: $24B ÷ 608 = $39.5M/store** (in stores 1/15th the size)
-
-### Other businesses each chain runs (non-grocery)
-
-| Chain | Non-Grocery Verticals |
-|---|---|
-| Walmart | Walmart+, Health clinics, Walmart Connect ads, banking, gas, pharmacy, optical, auto care, money transfers |
-| Costco | Travel, gas, pharmacy, optical, hearing aids, tires, photo, business services, life insurance, auto buying, Citi card |
-| Kroger | Kroger Health, fuel rewards, Personal Finance, Kroger Pay, Boost membership, pharmacy, telehealth |
-| Albertsons | Pharmacy, fuel, Albertsons Media Collective ads, meal kits |
-| Publix | Pharmacy, gift cards, Liquors, financial services |
-| Aldi | None significant — grocery only (closest to TJ) |
-| Whole Foods | Prime integration, Amazon Fresh hubs |
-| Trader Joe's | None. Pure grocery. |
-
-### Decision for analysis
-
-- **Primary chart metric:** grocery_revenue_usd_b (fairer comparison)
-- **Secondary chart:** total_revenue_usd_b (shows scale gap rivals leverage from non-grocery)
-- **Writeup angle:** TJ's discipline is itself a moat — refusing diversification keeps focus razor-sharp
-
----
-
-## Phase 2 Sentiment Findings — Statistical Rigor (Day 3)
-
-### Sample size
-- 4,856 documents (Reddit posts/comments + YouTube comments)
-- After dropping Walmart confound: 4,051 documents across 4 chains
-- ~800-1,300 docs per chain — adequate for inference
-
-### Mean sentiment per chain (VADER compound score, -1 to +1)
-
-| Chain | Mean | Median | n |
-|---|---|---|---|
-| Trader Joe's | 0.475 | 0.637 | 878 |
-| Walmart* | 0.470 | 0.604 | 805 |
-| Costco | 0.411 | 0.508 | 1,297 |
-| Publix | 0.414 | 0.525 | 848 |
-| Aldi | 0.415 | 0.542 | 1,028 |
-
-*Walmart excluded from final analysis — see "Confound" below.
-
-### Statistical tests (TJ vs each chain)
-
-**Welch's t-test on mean sentiment:**
-- TJ vs Costco: t=3.27, **p=0.001** ✓ significant
-- TJ vs Publix: t=2.75, **p=0.006** ✓ significant
-- TJ vs Aldi: t=2.89, **p=0.004** ✓ significant
-
-**Chi-square on negative ratio:**
-- TJ (9.1%) vs Costco (11.7%): chi²=3.47, p=0.063 ✗ marginal, not significant
-- TJ (9.1%) vs Publix (12.0%): chi²=3.59, p=0.058 ✗ marginal
-- TJ (9.1%) vs Aldi (12.0%): chi²=3.76, p=0.053 ✗ marginal
-
-### Honest interpretation
-
-- **Defensible claim:** TJ's overall sentiment is statistically higher than rivals (p<0.01)
-- **Marginal claim:** TJ's lower negativity rate (~3 pp gap) doesn't reach significance threshold — likely a real effect, but sample size insufficient to prove rigorously
-- **Avoid overclaiming:** "TJ has fewest complaints" — not supported at standard p<0.05 bar
-
-### The Walmart Confound
-
-r/walmart subreddit content is dominated by Walmart employees, not customers. Topic modeling confirmed this: themes included "happy birthday Gerry," "god bless," "stay weekend Robin" — workplace banter, not shopping experience. Sentiment score artificially inflated.
-
-**Decision:** Walmart excluded from customer sentiment analysis. YouTube data only retained for Walmart customer voice. Limitation documented in writeup.
-
-### Why this matters for the thesis
-
-TJ's moat is not dramatic positivity. It's **consistent, slightly elevated sentiment across a community that's culturally focused on the products themselves** (per topic modeling). Quiet loyalty, not loud advocacy. This is a more interesting finding than "TJ is universally loved."
-
----
-
 ## Phase 1 — KPI Scorecard (Day 1)
 
 ### Data sources used
@@ -260,8 +164,22 @@ Private chain estimates inherently sit at Tier 3–4.
 - Find more authoritative Aldi US revenue number — Martini.ai is single source
 - Get ACSI 2026 scores from primary source (theacsi.org) rather than secondary
 - Verify Costco grocery share (~70%) — they don't disclose food vs general merchandise cleanly
-
+- Chart styling needs polish before Day 8 dashboard build
+- Consider: better color palette, annotations highlighting paradox, consistent typography
 ---
+
+
+
+
+## Data Tension to Resolve (Hour 4)
+
+TJ revenue/sqft math doesn't fully reconcile:
+- Method A (industry estimate): $1,750-2,100/sqft
+- Method B (revenue ÷ store count ÷ avg sqft): $3,289/sqft  
+- Likely cause: TJ revenue $24B is upper bound; or avg sqft >12K
+- Decision: Use industry-reported $1,900/sqft for charts; flag estimate confidence in writeup
+
+
 
 ## Personal Touch Decisions (Pending)
 
@@ -290,5 +208,71 @@ To finalize before Day 8 writeup.
 - [ ] Day 8: Writeup + video + distribution
 
 ---
+
+
+## Phase 2 Sentiment Findings (Day 3)
+
+Three lenses, three different stories:
+
+1. **Volume mean:** TJ (0.475) > Walmart (0.470) > rest (~0.41). 
+   Walmart suspicious — r/walmart is employee subreddit, not customer.
+   
+2. **Negative ratio:** TJ lowest at 9.1% negative. Cleanest "fewest complaints" signal.
+
+3. **Engagement-weighted:** Aldi (0.528) > Costco (0.269) > TJ (0.266) > Walmart (0.151) > Publix (0.085).
+   Rankings flip — what people *upvote* differs from what they *post*.
+
+Key insight: TJ's moat shows in lowest negativity, not highest praise. 
+Customers don't gush — they just don't complain. Quiet loyalty.
+
+## Phase 2 Topic Analysis Findings
+
+Cultural identity by chain (LDA topics from Reddit + YouTube):
+
+- **TJ**: hyper-specific products (cheese, popcorn, basil, salmon). Curation-driven.
+- **Costco**: bulk health for families (organic, yogurt, butter, kids).
+- **Publix**: deal culture (BOGO, ibotta, coupons, rebates). Florida regional.
+- **Aldi**: affordable health (organic, prices, protein, lean).
+- **Walmart**: employee subreddit, not customer voice. Excluded from customer analysis.
+
+Key thesis insight:
+Only TJ's community centers conversations on the **products themselves**.
+Other chains' communities center on transactions (deals, bulk, savings).
+TJ's "no marketing" works because customers do the marketing for them — 
+about specific items, not deals.
+
+## Phase 2 Final Findings (Day 3, Cross-Platform Validation)
+
+### Critical finding — original thesis revised
+
+When sentiment is measured fairly (YouTube-only across all chains):
+
+| Chain | Mean Sentiment | Negative % |
+|---|---|---|
+| HEB | 0.611 | 4.6% |
+| Walmart | 0.504 | 9.3% |
+| Aldi | 0.499 | 9.2% |
+| Publix | 0.487 | 9.3% |
+| Costco | 0.454 | 9.7% |
+| Trader Joe's | 0.443 | 8.9% |
+
+**TJ ranks LAST in mean sentiment when comparison is apples-to-apples.**
+T-tests confirm: TJ significantly lower than Walmart (p=0.017), Aldi (p=0.025), HEB (p<0.0001).
+
+Earlier "TJ wins" finding was an artifact of comparing TJ's mixed corpus (Reddit + YouTube) against other chains' mostly-YouTube corpus. Reddit posts are more critical; YouTube haul comments are fan-driven.
+
+### What TJ does win on
+
+1. **Topic distinctness.** Only chain whose community centers conversations on the *products themselves*. Others center on deals (Publix), bulk (Costco), budget-health (Aldi).
+2. **Negative ratio (second-lowest).** 8.9% vs others' 9.2-9.7%. Marginal but consistent.
+3. **Measured tone.** Lower mean + lower negative % = less polarized discourse overall.
+
+### Revised thesis
+
+TJ doesn't win loudness. TJ wins consistency + cultural distinctness. ACSI #1 ranking reflects long-term satisfaction, not viral enthusiasm.
+
+### Lesson learned (worth highlighting in writeup)
+
+Cross-platform sentiment comparison is misleading without controlling for data source. Methodological rigor matters more than chasing a desired result.
 
 *This file is a living document. Append new findings, decisions, and insights as the project progresses.*
