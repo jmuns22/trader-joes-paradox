@@ -1,20 +1,30 @@
 # Trader Joe's Paradox — Project Notes & Running Writeup
 
-This document captures everything important that gets discovered, decided, or learned during the project. Will become the source material for the final 8–10 page writeup on Day 8.
+Living document for the project. Source material for the final writeup.
 
 ---
 
-## Core Thesis
+## Core Thesis (REVISED — Final)
 
-**Why does Trader Joe's win with fewer stores, fewer SKUs, and near-zero ad spend?**
+**Original framing:** "TJ wins on satisfaction AND sentiment because of curation."
 
-Fewer stores, fewer SKUs, near-zero ads → highest customer satisfaction + sales per square foot. Flaws function as moats.
+**Revised framing after full multi-platform data:**
+**TJ wins on satisfaction (ACSI #1) without winning sentiment. Its moat is operational efficiency + cultural distinctness, expressed through long-term loyalty rather than viral enthusiasm. Quiet loyalty, not loud advocacy.**
+
+Three independent data streams converge on **two** moats (not three):
+1. ✅ **Topic distinctness** — TJ community uniquely focuses on the products themselves
+2. ❌ **Sentiment ranking** — TJ ranks middle-of-pack on raw sentiment (5th of 6); thesis DOES NOT rest on sentiment
+3. ✅ **Pricing strategy** — Strategic bifurcation: cheap on curated items, premium on commodities
+4. ✅ **Operational efficiency** — Curation enables 14 inventory turns/year + 80% private label
+5. ✅ **ACSI satisfaction** — TJ #1, validating long-term retention
+
+The disconnect between sentiment (middle) and ACSI (top) IS the insight: **satisfaction ≠ enthusiasm**. TJ's customers are loyal but quiet. Other chains generate louder voices without matching loyalty.
 
 ---
 
 ## Pre-Project Fact Checks (Validated)
 
-- **Walmart highest grocery margin? FALSE.** Grocery margins industry-wide are 1–3%. TJ runs 2–3x higher than traditional grocers.
+- **Walmart highest grocery margin? FALSE.** Industry-wide grocery margins 1–3%. TJ runs 2–3x higher.
 - **TJ fan favorite? TRUE.** ACSI 2026: TJ #1 at 86, beating Publix (84), H-E-B (83), Aldi (81), Costco (81). Walmart far below.
 - **Sales per sq ft:** TJ ~$1,750–$2,100 · Whole Foods ~$1,000 · Walmart ~$400 · Target ~$300.
 - **Why TJ wins:** ~80% private label, ~4,000 curated SKUs vs Walmart's 120,000, national flat pricing, small dense urban footprint, no loyalty program, no online ordering, minimal ads.
@@ -25,7 +35,7 @@ Fewer stores, fewer SKUs, near-zero ads → highest customer satisfaction + sale
 
 Three preconditions most chains lack:
 1. **Private ownership.** Aldi Nord lets them refuse trends. No quarterly pressure.
-2. **Built moat before disruption.** Cult status locked in by 2000s. Newer chains can't skip that step.
+2. **Built moat before disruption.** Cult status locked in by 2000s. Newer chains can't skip.
 3. **Demographic match.** Core buyer (educated, urban, values curation) actively dislikes apps, loyalty programs, mega-stores. Orthodoxy = feature for this segment.
 
 Strategy fits the customer, not the other way around.
@@ -37,266 +47,157 @@ Strategy fits the customer, not the other way around.
 Mostly true that TJ doesn't advertise. No TV, no digital ads, no billboards, no coupons, no loyalty program.
 
 **What they do run:**
-- Fearless Flyer (mailed newsletter, ~5x/year). Quirky illustrated catalog.
-- Inside Trader Joe's podcast.
-- Rare radio spots.
-- Organic social media (no paid).
+- Fearless Flyer (mailed newsletter, ~5x/year)
+- Inside Trader Joe's podcast
+- Rare radio spots
+- Organic social media (no paid)
 
-Estimated ad spend: <0.2% of revenue. Industry average: 1–4%. Effectively zero compared to peers.
+Estimated ad spend: <0.2% of revenue. Industry average: 1–4%. Effectively zero.
 
 ---
 
 ## The Flaw Paradox — Why TJ Doesn't Fail Despite Its Flaws
 
-(Flagged for special section in writeup)
-
 1. **Flaws double as filters.** Cramped stores, no delivery, weird hours → repels wrong customers. Self-selection means zero churn from misaligned shoppers.
 2. **Constraints become brand.** No online forces in-store treasure hunt. Discontinued items create FOMO. Scarcity = desire.
-3. **Trust premium > convenience.** 80% private label only works because customers trust the curator. Walmart can't replicate.
-4. **No promo treadmill.** No coupons, sales, or loyalty card. Customers never anchor on "real price." Steady demand.
-5. **Crew culture absorbs friction.** Long checkout? Cashier chats with you. Human warmth offsets operational pain.
-6. **Frequency over basket.** Smaller, more frequent visits. Each visit lower stakes, easier to forgive.
-7. **Demographic match.** Educated, urban, higher-income, smaller households. Their flaws don't hurt this segment.
-8. **Patient capital.** Owned by Albrecht family (Aldi Nord). Private. No quarterly pressure.
-9. **Word-of-mouth flywheel.** Every "have you tried?" = free CAC. Lower marketing spend per customer acquired.
-10. **Sweet-spot pricing.** Cheap enough to feel accessible, quality high enough to feel curated. Empty niche between Whole Foods and Walmart.
+3. **Trust premium > convenience.** 80% private label only works because customers trust the curator.
+4. **No promo treadmill.** No coupons, sales, or loyalty card. Customers never anchor on "real price."
+5. **Crew culture absorbs friction.** Long checkout? Cashier chats with you. Human warmth offsets pain.
+6. **Frequency over basket.** Smaller, more frequent visits. Lower stakes per visit.
+7. **Demographic match.** Educated, urban, higher-income, smaller households.
+8. **Patient capital.** Albrecht family (Aldi Nord). Private. No quarterly pressure.
+9. **Word-of-mouth flywheel.** Every "have you tried?" = free CAC.
+10. **Sweet-spot pricing.** Cheap enough to feel accessible, quality high enough to feel curated.
 
 ---
 
 ## TJ's Moats (Sustainable Competitive Advantages)
 
 A "moat" = barrier protecting business from competitors. TJ's specific moats:
-- **Brand moat** — Cult following, organic word-of-mouth flywheel.
-- **Cost advantage** — ~80% private label cuts COGS dramatically.
-- **Curation expertise** — Intangible asset; buyer team hard to replicate.
-- **Real estate** — Small dense urban footprints already locked up; new entrants priced out.
-- **Customer self-selection** — Flaws filter out wrong customers, creating low-churn loyal base.
+- **Brand moat** — Cult following, organic word-of-mouth flywheel
+- **Cost advantage** — ~80% private label cuts COGS dramatically
+- **Curation expertise** — Intangible asset; buyer team hard to replicate
+- **Real estate** — Small dense urban footprints already locked up
+- **Customer self-selection** — Flaws filter out wrong customers
 
 ---
 
-## Phase 1 — KPI Scorecard (Day 1)
+## Revenue Comparison Caveat — Diversification vs Discipline
 
-### Data sources used
-- **SEC 10-K filings** for public chains (Walmart, Kroger, Albertsons, Costco, Publix)
-- **Industry estimates** for private chains (Trader Joe's, Aldi US, Whole Foods)
+**Important measurement insight:** Total revenue distorts the paradox. Rivals earn massively from non-grocery streams TJ refuses.
 
-### Key numbers locked in (FY2024 unless noted)
+**What's in each chain's total revenue:**
+- **Walmart \$681B:** US grocery (~\$259B, 38%) + general merch + international + Sam's + Walmart Connect ads + fuel
+- **Costco \$254B:** Merchandise + membership fees (\$4.8B) + travel + optical + pharmacy
+- **Kroger \$147B:** Grocery + fuel (~\$24B) + Specialty Pharmacy + Personal Finance + alternative profits
+- **Albertsons \$80B:** Grocery + fuel + Media Collective ads + pharmacy
+- **Publix \$60B:** Grocery + Liquors + pharmacy
+- **Aldi US \$40B:** Groceries only (closest to TJ discipline)
+- **Whole Foods \$18B:** Grocery + Amazon Prime integration
+- **Trader Joe's \$24B:** Groceries. That's it. No app, no fuel, no pharmacy, no ads, no travel, no credit card.
 
-| Chain | Revenue (USD B) | US Stores | Employees | Notes |
+**Grocery revenue per store:**
+- Walmart US grocery: \$50M/store
+- Kroger: \$51M/store
+- Costco grocery: \$293M/warehouse (massive stores)
+- Publix: \$43M/store
+- **Trader Joe's: \$39.5M/store (in stores 1/15th the size)**
+
+---
+
+## Phase 2 Final Findings — Sentiment + Topics (Day 3 + TikTok Update)
+
+### Sample size (full corpus across 3 platforms)
+
+8,321 documents total from Reddit + YouTube + TikTok.
+
+**By chain × source:**
+
+| Chain | Reddit | TikTok | YouTube | Total |
 |---|---|---|---|---|
-| Walmart (FY2025) | 681.0 | 5,205 | 2,100,000 | Walmart US net sales $462.4B |
-| Kroger | 147.1 | 2,722 | 409,000 | Excludes fuel ~$24B |
-| Costco (FY2024) | 254.5 | 614 (US) | 219,000 (US) | Membership fees $4.8B |
-| Publix | 59.7 | 1,390 | 260,000 | Net earnings $4.6B |
-| Albertsons | 80.4 | 2,270 | 285,000 | Many banners |
-| Aldi US | 40.2 (est) | 2,400+ | ~25,000 (est) | Private |
-| Trader Joe's | 24.0 (est) | 608 | ~70,000 | Private; ~11% CAGR |
-| Whole Foods | 18.4 (est) | 500 | ~105,000 | Amazon subsidiary |
+| Costco | 225 | 544 | 786 | 1,555 |
+| HEB | 0 | 713 | 835 | 1,548 |
+| Walmart | 279 | 557 | 599 | 1,435 |
+| TJ | 201 | 539 | 598 | 1,338 |
+| Publix | 258 | 288 | 696 | 1,242 |
+| Aldi | 211 | 343 | 649 | 1,203 |
 
-### Sanity checks (revenue per store)
-- Walmart US: $89M/store (huge stores, ~180,000 sqft)
-- Costco: $280M/warehouse (huge warehouses, ~147,000 sqft)
-- Publix: $43M/store
-- Trader Joe's: $39.5M/store (small stores, ~10,000–15,000 sqft)
-- Whole Foods: $36.8M/store
+**Known imbalance:** HEB has zero Reddit data (Apify credit depleted; no plans to upgrade plan). Documented limitation.
 
-**Insight:** TJ's per-store revenue is competitive with Publix despite stores being roughly 1/4 the size. That's where sales/sqft advantage shows up.
+### Mean sentiment per chain (final)
 
-### Fiscal year end variance (matters for normalization)
-- Walmart: Jan 31
-- Kroger: ~Feb 1
-- Costco: Sep 1
-- Publix: Dec 28
-- Albertsons: Feb 22
-- Calendar year for private chain estimates
+| Chain | Mean | Median | n |
+|---|---|---|---|
+| HEB | **0.436** | 0.555 | 1,548 |
+| Aldi | 0.368 | 0.452 | 1,203 |
+| Costco | 0.342 | 0.422 | 1,555 |
+| Publix | 0.336 | 0.420 | 1,242 |
+| Trader Joe's | 0.325 | 0.402 | 1,338 |
+| Walmart | 0.317 | 0.361 | 1,435 |
 
-### Caveats / assumptions documented
-- Walmart grocery share (~56% of Walmart US net sales) is estimated from industry sources, not broken out cleanly in 10-K
-- TJ revenue is a triangulated estimate: Worldly Partners ($20B+ in 2023) + Acquired Briefing ($24-25B for 2024) + ~11% CAGR assumption
-- Aldi US revenue from Martini.ai industry report — should treat as approximate
-- Whole Foods revenue not broken out by Amazon in their 10-K; uses industry estimates
+**TJ ranks 5th of 6 on mean sentiment.** Not the leader.
 
----
+### Negative ratio per chain
 
-## Financial Terms Glossary (For Quick Reference)
+| Chain | % Negative |
+|---|---|
+| HEB | 8.5% |
+| Costco | 13.4% |
+| Trader Joe's | 13.4% |
+| Aldi | 13.5% |
+| Publix | 14.2% |
+| Walmart | 14.2% |
 
-- **Net sales / Revenue** = money from selling products (top of income statement)
-- **Gross profit** = revenue − cost of goods sold (COGS)
-- **Operating income** = gross profit − operating expenses
-- **Net income / Net earnings** = bottom line after taxes
-- **Comparable sales (comp sales)** = sales from stores open in both periods being compared (excludes new stores)
-- **Identical sales** = similar to comp sales, used by some grocers
-- **Same-store sales** = same concept, different name
+**HEB clearly stands out on lowest negativity.** TJ no longer distinguished (clustered with Aldi, Costco, Publix, Walmart in 13-14% range).
 
-For Phase 1 we used **revenue** (top-line) for size comparisons. Phase 4 will use margin metrics (gross margin, operating margin).
+### Engagement-weighted sentiment
 
----
+| Chain | Weighted Score |
+|---|---|
+| Aldi | 0.438 |
+| HEB | 0.283 |
+| Costco | 0.242 |
+| Trader Joe's | 0.142 |
+| Walmart | 0.101 |
+| Publix | 0.002 |
 
-## Quarterly vs Annual Reporting
+### Topic modeling per chain (LDA, k=3 each)
 
-Companies report:
-- **4 quarterly reports** (10-Q for SEC filers, press releases otherwise)
-- **1 annual report** (10-K)
+**TJ:** bag, sugar, lemon, cheese, chocolate, fruit, sauce, flowers — **products**
+**HEB:** family, Texas, pantry, ranch, protein, brand, strawberries — **Texas pride + products**
+**Costco:** family, kids, meat, butter, items, trip, price — **bulk family shopping**
+**Publix:** ibotta, coupon, bogo, deals, prices, florida — **deal/coupon culture**
+**Aldi:** cart, quarter, cashiers, water, chicken, potatoes — **shopping ritual + products**
+**Walmart:** chicken, meat, meal, cook, budget, family, gas, phone — **budget family cooking** (customer voice now visible with TikTok added)
 
-Q4 press release usually contains BOTH Q4 numbers AND full-year numbers. Look for headers like "Full-Year 2024" or "Fiscal Year Ended."
+### Walmart's evolved profile
 
-The 10-K is the authoritative annual document. Press releases summarize, 10-Ks have audited details.
+Earlier Reddit-only Walmart data showed employee subreddit content ("god bless," "happy birthday"). After TikTok comments added, Walmart customer voice surfaces (budget family meal prep). Confound mostly resolved by platform mix.
 
----
+### Statistical conclusions
 
-## Data Source Reliability Tiers
+- TJ does NOT win on raw sentiment metrics
+- HEB consistently shows highest sentiment + lowest negativity (real, not artifact)
+- TJ stands out only on **topic distinctness** — product-focused community
 
-When citing numbers, internal hierarchy:
+### Why this strengthens the project
 
-1. **Tier 1:** SEC 10-K filings (audited, legally required)
-2. **Tier 2:** Company press releases / investor relations pages
-3. **Tier 3:** Industry research firms (Numerator, Nielsen, IBISWorld, Bullfincher)
-4. **Tier 4:** Aggregator sites (Statista, Macrotrends — usually pull from Tier 1/2 but sometimes lag)
-5. **Tier 5:** Blog posts / general web sources (use only for triangulation)
-
-Private chain estimates inherently sit at Tier 3–4.
-
----
-
-## Open Questions / To Investigate Later
-
-- Confirm exact TJ store count for end of 2024 (608 is mid-2025 figure, may be lower for 2024)
-- Find more authoritative Aldi US revenue number — Martini.ai is single source
-- Get ACSI 2026 scores from primary source (theacsi.org) rather than secondary
-- Verify Costco grocery share (~70%) — they don't disclose food vs general merchandise cleanly
-- Chart styling needs polish before Day 8 dashboard build
-- Consider: better color palette, annotations highlighting paradox, consistent typography
----
-
-
-
-
-## Data Tension to Resolve (Hour 4)
-
-TJ revenue/sqft math doesn't fully reconcile:
-- Method A (industry estimate): $1,750-2,100/sqft
-- Method B (revenue ÷ store count ÷ avg sqft): $3,289/sqft  
-- Likely cause: TJ revenue $24B is upper bound; or avg sqft >12K
-- Decision: Use industry-reported $1,900/sqft for charts; flag estimate confidence in writeup
-
-
-
-## Personal Touch Decisions (Pending)
-
-User considering:
-- Receipt teardown (own grocery spend across stores)
-- Critical/contrarian take (where TJ fails — limited selection, no online, parking)
-- Will be added in Phase 2 (sentiment) sidebar + closing reflection
-
-To finalize before Day 8 writeup.
+A weaker portfolio would have overclaimed "TJ wins sentiment." Mature analysis acknowledges:
+- ACSI says TJ #1 in satisfaction
+- Sentiment says TJ middle of pack
+- Both are true. They measure different things.
+- The disconnect IS the insight
 
 ---
-
-## Project Status Tracker
-
-- [x] Day 1 Hour 1: Project setup, GitHub, venv, dependencies
-- [x] Day 1 Hour 2: KPI raw data gathered
-- [ ] Day 1 Hour 3: TJ private estimates deep-dive + assumptions doc
-- [ ] Day 1 Hour 4: ACSI scores, sales/sqft computation, comparison table
-- [ ] Day 1 Hour 5: 3 paradox charts + commit
-- [ ] Day 2: Reddit scraper pipeline
-- [ ] Day 3: Sentiment + topics
-- [ ] Day 4: SKU & pricing benchmark
-- [ ] Day 5: Efficiency model
-- [ ] Day 6: Expansion gap
-- [ ] Day 7: Dashboard build
-- [ ] Day 8: Writeup + video + distribution
-
----
-
-
-## Phase 2 Sentiment Findings (Day 3)
-
-Three lenses, three different stories:
-
-1. **Volume mean:** TJ (0.475) > Walmart (0.470) > rest (~0.41). 
-   Walmart suspicious — r/walmart is employee subreddit, not customer.
-   
-2. **Negative ratio:** TJ lowest at 9.1% negative. Cleanest "fewest complaints" signal.
-
-3. **Engagement-weighted:** Aldi (0.528) > Costco (0.269) > TJ (0.266) > Walmart (0.151) > Publix (0.085).
-   Rankings flip — what people *upvote* differs from what they *post*.
-
-Key insight: TJ's moat shows in lowest negativity, not highest praise. 
-Customers don't gush — they just don't complain. Quiet loyalty.
-
-## Phase 2 Topic Analysis Findings
-
-Cultural identity by chain (LDA topics from Reddit + YouTube):
-
-- **TJ**: hyper-specific products (cheese, popcorn, basil, salmon). Curation-driven.
-- **Costco**: bulk health for families (organic, yogurt, butter, kids).
-- **Publix**: deal culture (BOGO, ibotta, coupons, rebates). Florida regional.
-- **Aldi**: affordable health (organic, prices, protein, lean).
-- **Walmart**: employee subreddit, not customer voice. Excluded from customer analysis.
-
-Key thesis insight:
-Only TJ's community centers conversations on the **products themselves**.
-Other chains' communities center on transactions (deals, bulk, savings).
-TJ's "no marketing" works because customers do the marketing for them — 
-about specific items, not deals.
-
-## Phase 2 Final Findings (Day 3, Cross-Platform Validation)
-
-### Critical finding — original thesis revised
-
-When sentiment is measured fairly (YouTube-only across all chains):
-
-| Chain | Mean Sentiment | Negative % |
-|---|---|---|
-| HEB | 0.611 | 4.6% |
-| Walmart | 0.504 | 9.3% |
-| Aldi | 0.499 | 9.2% |
-| Publix | 0.487 | 9.3% |
-| Costco | 0.454 | 9.7% |
-| Trader Joe's | 0.443 | 8.9% |
-
-**TJ ranks LAST in mean sentiment when comparison is apples-to-apples.**
-T-tests confirm: TJ significantly lower than Walmart (p=0.017), Aldi (p=0.025), HEB (p<0.0001).
-
-Earlier "TJ wins" finding was an artifact of comparing TJ's mixed corpus (Reddit + YouTube) against other chains' mostly-YouTube corpus. Reddit posts are more critical; YouTube haul comments are fan-driven.
-
-### What TJ does win on
-
-1. **Topic distinctness.** Only chain whose community centers conversations on the *products themselves*. Others center on deals (Publix), bulk (Costco), budget-health (Aldi).
-2. **Negative ratio (second-lowest).** 8.9% vs others' 9.2-9.7%. Marginal but consistent.
-3. **Measured tone.** Lower mean + lower negative % = less polarized discourse overall.
-
-### Revised thesis
-
-TJ doesn't win loudness. TJ wins consistency + cultural distinctness. ACSI #1 ranking reflects long-term satisfaction, not viral enthusiasm.
-
-### Lesson learned (worth highlighting in writeup)
-
-Cross-platform sentiment comparison is misleading without controlling for data source. Methodological rigor matters more than chasing a desired result.
 
 ## Phase 3 Findings — Pricing Reveals Strategic Bifurcation
 
 ### Headline finding
-TJ is ~5% MORE expensive than Walmart on average. Not a price leader.
+**TJ is ~5% MORE expensive than Walmart on average.** Not a price leader.
 
-### The bifurcation
-- Cheap on curated/branded categories (snacks, pantry, household, beverages)
-- Expensive on commodity categories (produce, proteins, dairy)
-- Walmart, Costco, Aldi win on commodities. TJ wins on signature items.
-
-### Why this strengthens the moat thesis
-TJ's pricing strategy matches their cultural identity:
-- Community talks about specific products → TJ prices those competitively
-- Community doesn't talk about bananas/milk → TJ doesn't fight for that price point
-- Customers pay 33% premium on produce because they're not there for produce — they're there for cookie butter
-
-### Connecting three phases
-1. **Topic modeling:** TJ community = product-focused
-2. **Sentiment:** TJ = consistent product discourse, not loud praise
-3. **Pricing:** TJ = strategic value on curated, premium on commodity
-
-All three converge on: **curation is the moat, not price**.
+### Bifurcation pattern
+- **Cheap on:** snacks (86.6), pantry (87.8), household (90.2), beverages (92.2)
+- **Premium on:** dairy (112.2), proteins (120.2), produce (133.3)
 
 ### Per-category index (Walmart = 100)
 
@@ -312,46 +213,46 @@ All three converge on: **curation is the moat, not price**.
 | Produce | 133.3 | 100 | 95.1 | 130.3 | 102.5 |
 | **Overall** | **104.8** | **100** | **87.4** | **133.5** | **91.6** |
 
-## Phase 4 Findings — Operational Efficiency (Day 5)
+### Why this strengthens the moat thesis
+TJ's pricing matches its cultural identity:
+- Community talks about specific products → TJ prices those competitively
+- Customers pay 33% premium on produce because they're there for cookie butter, not bananas
+
+---
+
+## Phase 4 Findings — Operational Efficiency
 
 ### Key operational metrics
 
 | Metric | TJ | Walmart | Aldi | Publix | Costco |
 |---|---|---|---|---|---|
 | SKU count | 4,000 | 120,000 | 1,600 | 40,000 | 4,000 |
-| Sales/sqft ($) | 1,900 | 400 | 750 | 650 | 1,300 |
+| Sales/sqft (\$) | 1,900 | 400 | 750 | 650 | 1,300 |
 | Inventory turns/yr | 14 | 9 | 13 | 11 | 12 |
 | Private label % | 80 | 25 | 90 | 25 | 30 |
 
 ### Insights
+- TJ matches Costco on SKUs (4,000) but in 12x smaller stores
+- TJ inventory turns highest at 14/yr
+- TJ's 80% private label sits between Aldi (90%) and rivals (25-30%)
+- High private label × fast turns × premium pricing on signatures = consistent 5-6% op margin
 
-- **TJ matches Costco on SKUs (4,000) but in 12x smaller stores.** Curation density unmatched.
-- **TJ inventory turns highest (14/yr).** Faster cycling = less waste, fresher stock, less capital tied up.
-- **TJ's 80% private label** sits between Aldi (90%) and rivals (25-30%). Aldi more extreme, TJ premium-curated.
-- **Margin equation:** High private label × fast turns × premium pricing on signatures = consistent 5-6% op margin in low-margin industry.
+### Mechanism
+Curation → fewer SKUs per sqft → faster turns → less waste → margins → ability to pay crew well → retention → curation knowledge → cycle reinforces
 
-### Closing the loop on thesis
-
-Phases 1-4 converge:
-1. KPIs: TJ punches above weight on revenue per store
-2. Sentiment: community uniquely product-focused
-3. Pricing: strategic bifurcation (cheap on curated, premium on commodity)
-4. **Operations: curation enables 14 turns/yr + 80% private label → sustainable margins**
-
-The moat is mechanical: fewer SKUs → faster turns → better margins → ability to pay crew more → better service → loyal customers → fewer SKUs needed.
-
+---
 
 ## Phase 5 Findings — Expansion Gap (Refined)
 
 ### Model
-Two-signal propensity:
 - 60% Demographics (income + education + urban density)
-- 40% Google Trends search interest (real demand)
+- 40% Google Trends search interest
 
 ### Headline finding
-~700-800 store opportunity (refined). Revenue potential ~$28-32B.
+~700-800 additional store opportunity. Revenue potential ~\$28-32B.
 
 ### Top targets (refined)
+
 | State | Current | Refined Target | Demo-only Target | Trends Score |
 |---|---|---|---|---|
 | Texas | 17 | +87 | +110 | 28 |
@@ -360,22 +261,112 @@ Two-signal propensity:
 | Illinois | 18 | +33 | +38 | 45 |
 | Pennsylvania | 17 | +29 | +36 | 36 |
 
-### Key insight from refinement
-**Texas and Florida demographics suggest huge opportunity, but search interest is LOW** (28 and 34 vs CA's 94). 
+### Reality validates the model
 
-Three interpretations:
-1. **Latent demand** — locals haven't been exposed to TJ yet; demand grows after stores open
-2. **Cultural mismatch** — Sun Belt demographics don't translate to TJ-style shopping
-3. **Competition** — HEB in Texas, Publix in Florida already serve the curated-grocery niche
+TJ announced 25+ new stores across 14 states for 2026:
+- **States matching model's top targets:** Florida (West Palm Beach, Orlando), Illinois, New Jersey, Massachusetts, Arizona, Georgia, New York
+- **Notable absence:** Texas (HEB competition hypothesis confirmed)
+- TJ opened 34 stores in 2024, 43 in 2025 — growth pace accelerating
 
-### Honest caveat
-This model uses two signals. Better versions would also include:
-- Real estate availability
-- Drive-time analysis from existing TJ customers
-- Competitor proximity (Whole Foods, Sprouts cluster analysis)
-- TikTok / social demand signals
-- Local cost of expansion vs revenue potential
+### Caveats
+- Demographic propensity ≠ guaranteed success
+- Real estate availability, local competition, drive-time analysis missing
+- 700-800 = theoretical ceiling; realistic 5-10 year plan likely 100-200 stores
 
-Current model = 60% confidence directional guide, not a real estate plan.
+---
 
-*This file is a living document. Append new findings, decisions, and insights as the project progresses.*
+## Methodology Limitations (Honest List for Writeup)
+
+### Data
+1. **HEB has no Reddit data.** Apify credit depleted; July 1 refill needed.
+2. **Sample size per chain ~1,200-1,500 docs.** Adequate for inference, not deep.
+3. **Selection bias.** Data from people who CHOSE to post about stores (fans/employees).
+4. **TJ revenue is estimated.** \$24B is triangulated from multiple secondary sources.
+5. **Aldi US revenue single-source.** From Martini.ai industry report.
+
+### Methods
+6. **VADER not validated on this corpus.** Manual accuracy check skipped for speed.
+7. **No baseline.** "TJ scored 0.325" is meaningless without industry baseline.
+8. **LDA topics noisy.** Improved with TF-IDF + perplexity tuning, but k=3 across all chains is suboptimal.
+9. **Pricing data is mid-2025 snapshot.** Regional variation 5-10% not controlled.
+10. **Causation overreach.** Can show correlation, can't prove curation CAUSES success.
+
+### Scope
+11. **No primary research.** No surveys, no store visits, no interviews.
+12. **No Google Maps Reviews.** Actual customer voice missing (only fan voice).
+13. **No competitor analysis vs Whole Foods.** TJ's true competitive peer absent.
+14. **Walmart Reddit confound** documented but only partially fixed by TikTok addition.
+
+These are documented limitations, not project failures. Honest documentation strengthens the work.
+
+---
+
+## Recent TJ News (June 2026)
+
+Project completion coincides with major TJ expansion news. Worth including in writeup:
+
+- **25+ new stores announced for 2026** across 14 states
+- Opened 34 stores in 2024, 43 in 2025 — pace accelerating
+- 2026 expansion states: California, Washington, Illinois, New Jersey, Louisiana, Utah, Florida, Massachusetts, Kansas, Arizona, Georgia, New York
+- Project's expansion model directionally validated by actual TJ behavior
+- Texas notably absent from 2026 expansion — supports "HEB blocks TX" hypothesis
+
+---
+
+## Financial Terms Glossary
+
+- **Net sales / Revenue** = money from selling products
+- **Gross profit** = revenue − COGS
+- **Operating income** = gross profit − operating expenses
+- **Net income** = bottom line after taxes
+- **Comp sales** = same-store sales, excludes new openings
+
+---
+
+## Data Source Reliability Tiers
+
+1. **Tier 1:** SEC 10-K filings (audited)
+2. **Tier 2:** Company press releases / IR pages
+3. **Tier 3:** Industry research firms (Numerator, Nielsen, IBISWorld)
+4. **Tier 4:** Aggregator sites (Statista, Macrotrends)
+5. **Tier 5:** Blog/general web sources (triangulation only)
+
+Private chain estimates sit at Tier 3–4.
+
+---
+
+## Open Future Investigations
+
+Items deferred — possible future enhancements:
+
+- Google Maps Reviews scrape (~\$3 Apify when credits refill)
+- Manual VADER accuracy validation (200 samples)
+- r/HEB Reddit scrape to balance data
+- Add Whole Foods + Sprouts to comparison set
+- TikTok analysis deeper dive (per-hashtag sentiment)
+- Crew economics moat (turnover comparison)
+- Discontinuation FOMO quantification
+- Real estate strategy mapping
+- Survey of actual TJ shoppers (primary research)
+
+---
+
+## Project Status Tracker
+
+- [x] Day 1: Project setup + KPI scorecard
+- [x] Day 2: Data collection (Reddit via Apify, YouTube via Google API)
+- [x] Day 3: Sentiment + topic modeling
+- [x] Day 4: Pricing benchmark
+- [x] Day 5: Efficiency model
+- [x] Day 6: Expansion gap analysis
+- [x] Day 7: HTML dashboard
+- [x] Day 3.5: TikTok added, sentiment re-run, thesis revised
+- [ ] Day 8: PDF writeup
+- [ ] Day 8: LinkedIn post
+- [ ] Day 8: GitHub Pages deployment
+- [ ] Day 8: Final cleanup + commit
+- [ ] Day 8: Optional Loom video walkthrough
+
+---
+
+*Living document. Updated through Day 3.5 with TikTok data and revised thesis. Final writeup will draw from this source.*
